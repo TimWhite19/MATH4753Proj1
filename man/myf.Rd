@@ -7,14 +7,15 @@
 myf(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{is the user input}
 }
 \value{
-a vector of squared components
+a vector of squared components in the form of a vector object.
 }
 \description{
 Takes a vector and returns a vector of squared components.
 }
 \examples{
-x = 1:30; myf(x)
+myf(x = 1:30)
+
 }
