@@ -9,15 +9,16 @@ mybin(iter = 1000, n = 10, p = 0.5)
 \arguments{
 \item{iter}{Number of iterations}
 
-\item{n}{Number of samples taken}
+\item{n}{Number of samples taken per iteration}
 
-\item{p}{Probability of success}
+\item{p}{Probability of success per sample}
 }
 \value{
-plot and such
+Bar plot & table of proportions
 }
 \description{
-Binomial Simulation
+This function produces a bar plot and table of the proportions of each potential outcome when given a number of iterations, iter; the number of samples per iteration, n; and the probability of success per sample, p.
+Those outcomes will range from 0 sucesses in an iteration to n successes in an itteration.
 }
 \examples{
 mybin()
