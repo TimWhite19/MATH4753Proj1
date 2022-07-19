@@ -18,7 +18,7 @@ Bar plot & table of proportions
 }
 \description{
 This function produces a bar plot and table of the proportions of each potential outcome when given a number of iterations, iter; the number of samples per iteration, n; and the probability of success per sample, p.
-Those outcomes will range from 0 sucesses in an iteration to n successes in an itteration.
+Those outcomes will range from 0 successes in an iteration to n successes in an iteration.
 }
 \examples{
 mybin()
