@@ -8,7 +8,7 @@
 #' @param p Probability of success per sample
 #'
 #' @return Bar plot & table of proportions
-#' @export
+#' @export mybin
 #'
 #' @examples mybin()
 #'
