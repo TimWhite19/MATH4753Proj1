@@ -9,9 +9,9 @@
 #' @return Bar plot & table of proportions
 #' @export
 #'
-#' @examples mybin(iter = 1000, n = 10, p = 0.5)
+#' @examples mybin()
 #'
-mybin = function(iter, n , p){
+mybin = function(iter = 1000, n = 10, p = 0.5){
   # make a matrix to hold the samples
   #initially filled with NA's
   sam.mat = matrix(NA,nrow = n,ncol = iter, byrow = TRUE) #'by row' fills matrix by going from left to right through rows top to bottom
