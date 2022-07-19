@@ -1,18 +1,17 @@
 #' Binomial Simulation
 #'
-#' This function produces a bar plot and table of the proportions of each potential outcome when given a number of iterations, iter; the number of samples per iteration, n; and the probability of success per sample, p.
-#' Those outcomes will range from 0 successes in an iteration to n successes in an iteration.
+#' This function produces a bar plot and table of the proportions of each potential outcome when given a number of iterations, iter; the number of samples per iteration, n; and the probability of success per sample, p. Those outcomes will range from 0 successes in an iteration to n successes in an iteration.
 #'
 #' @param iter Number of iterations
 #' @param n Number of samples taken per iteration
 #' @param p Probability of success per sample
 #'
 #' @return Bar plot & table of proportions
-#' @export mybin
+#' @export
 #'
-#' @examples mybin()
+#' @examples mybin(iter = 1000, n = 10, p = 0.5)
 #'
-mybin = function(iter = 1000,n = 10, p = 0.5){
+mybin = function(iter, n , p){
   # make a matrix to hold the samples
   #initially filled with NA's
   sam.mat = matrix(NA,nrow = n,ncol = iter, byrow = TRUE) #'by row' fills matrix by going from left to right through rows top to bottom
