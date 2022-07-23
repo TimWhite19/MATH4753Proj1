@@ -25,4 +25,3 @@ myncurve = function(mu, sigma, a) {
   paste("Area = ", area)
   graphics::text(x = a+sigma, y = max(ycurve)/8, paste("Area = ", area, sep = ""))
 }
-myncurve(10,5,6)
