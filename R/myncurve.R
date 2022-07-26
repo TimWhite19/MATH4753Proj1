@@ -12,7 +12,7 @@
 #' @examples
 #' \dontrun{myncurve(mu = 3, sigma = 5, a = 6)}
 #'
-myncurve = function(mu, sigma, a) {
+myncurve = function(mu = 3, sigma = 5, a = 6) {
   graphics::curve(stats::dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
 
   #Shades desired area

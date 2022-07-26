@@ -4,7 +4,7 @@
 \alias{myncurve}
 \title{Normal Probability Distribution}
 \usage{
-myncurve(mu, sigma, a)
+myncurve(mu = 3, sigma = 5, a = 6)
 }
 \arguments{
 \item{mu}{mean}

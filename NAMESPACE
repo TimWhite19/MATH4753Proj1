@@ -3,3 +3,4 @@
 export(mybin)
 export(myf)
 export(myncurve)
+export(ntickets)
