@@ -21,7 +21,7 @@ ntickets = function(N = 200, gamma = 0.02, p = 0.95){
   nd = n[root]
 
   plot(n,fn,main = c(paste("Ojective Vs n for optimal number of tickets sold (n = ", nd, ")"),paste(" gamma = ",gamma, " N = ",N, " Discrete Case")), ylab = "Objective", xlab = "n",ylim = c(-.1,1), xlim=c(N,N+20))
-  lines(n,fn, xlim = (range(n)), ylim = range(fn))
+  graphics::lines(n,fn, xlim = (range(n)), ylim = range(fn))
   graphics::abline(h = 0,v = nd, col = "red")
 
   #normal distribution
